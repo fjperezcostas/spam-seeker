@@ -4,8 +4,7 @@ WORKDIR /app
 
 COPY requirements.txt .
 COPY spam-seeker.py .
-COPY models/model.pkl .
-COPY models/vectorizer.pkl .
+COPY models/ ./models/
 
 RUN pip install --no-cache-dir -r requirements.txt
 

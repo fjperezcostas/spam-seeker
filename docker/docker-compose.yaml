@@ -136,7 +136,7 @@ services:
       - camunda-platform
 
   spam-seeker:
-    image: frjperezcostas/spam-seeker:1.0.0
+    image: frjperezcostas/spam-seeker:latest
     container_name: spam-seeker
     networks:
       - camunda-platform

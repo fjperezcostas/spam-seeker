@@ -2,3 +2,5 @@ scikit-learn
 grpcio
 grpcio-tools
 pyzeebe
+pandas
+datasets
