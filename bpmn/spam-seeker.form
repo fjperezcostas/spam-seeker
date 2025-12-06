@@ -1,0 +1,80 @@
+{
+  "components": [
+    {
+      "text": "### The following email is suspicious of being spam",
+      "label": "Text view",
+      "type": "text",
+      "layout": {
+        "row": "Row_16wmlt5",
+        "columns": null
+      },
+      "id": "Field_11sv1yd"
+    },
+    {
+      "label": "Probability",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0e1pqkv",
+        "columns": 3
+      },
+      "id": "Field_0vhr9yu",
+      "key": "probability",
+      "readonly": true,
+      "disabled": false
+    },
+    {
+      "label": "Subject",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1qxnmjw",
+        "columns": null
+      },
+      "id": "Field_0y6sp7d",
+      "key": "subject",
+      "readonly": true,
+      "disabled": false
+    },
+    {
+      "label": "Body",
+      "type": "textarea",
+      "layout": {
+        "row": "Row_0h4ht0f",
+        "columns": null
+      },
+      "id": "Field_0uyzdx4",
+      "key": "body",
+      "readonly": true,
+      "disabled": false
+    },
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "true"
+        },
+        {
+          "label": "No",
+          "value": "false"
+        }
+      ],
+      "label": "Remove email?",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1hbvzvg",
+        "columns": 2
+      },
+      "id": "Field_0u2hln2",
+      "key": "remove_email",
+      "defaultValue": "false"
+    }
+  ],
+  "type": "default",
+  "id": "confirm-email-removal-form",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.7.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.28.0"
+  },
+  "schemaVersion": 16
+}
